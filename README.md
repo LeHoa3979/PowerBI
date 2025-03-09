@@ -37,6 +37,8 @@ The dataset used for this project is the **Superstore Sales Dataset**, containin
 - **RSI (14) Indicator**: Shows overbought and oversold levels.
 - **Monthly Stock Returns Heatmap**: Visualizes stock performance by month and year.
 - **Sales Forecast for the Next 3 Years**: Predictive model for future sales trends.
+
+  **DASHBOARD**
   ![Image](https://github.com/user-attachments/assets/a1b1299e-3e7d-44c9-8536-fa8bd61f21bd)
 
 
