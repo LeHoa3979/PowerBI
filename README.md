@@ -1,8 +1,9 @@
 # Power BI Project: Xu hướng giá thị trường chứng khoán Việt Nam: Mô hình tăng và giảm
 
 ## Tổng Quan
-Dự án Power BI này tập trung vào việc phân tích dữ liệu bán hàng từ bộ dữ liệu Superstore nhằm khám phá thông tin chi tiết, xác định xu hướng và dự báo doanh số trong tương lai.  
-Dashboard cung cấp các biểu đồ tương tác về các chỉ số kinh doanh chính như doanh thu, lợi nhuận, xu hướng bán hàng và phân khúc khách hàng.
+Dự án Power BI này tập trung vào việc phân tích xu hướng giá cổ phiếu trên thị trường chứng khoán Việt Nam. Thông qua việc trực quan hóa dữ liệu lịch sử, dashboard giúp người dùng theo dõi biến động giá, xác định các giai đoạn tăng/giảm mạnh, và áp dụng các chỉ báo kỹ thuật như đường trung bình động (Moving Average) để hỗ trợ ra quyết định đầu tư.
+
+Dashboard cung cấp cái nhìn tổng thể và chi tiết về các mã cổ phiếu, theo thời gian, ngành và hiệu suất tương đối, giúp người dùng nhận diện mô hình biến động và xu hướng thị trường.
 
 ## Mục Tiêu
 - Phân tích xu hướng doanh số và lợi nhuận trong quá khứ.
