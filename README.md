@@ -26,11 +26,28 @@ Dashboard cung cấp cái nhìn tổng thể và chi tiết về các mã cổ p
 - **Python (Jupyter Notebook)**: Phân tích nâng cao và dự báo.
 
 ## Bộ Dữ Liệu
-Bộ dữ liệu được sử dụng là **Superstore Sales Dataset**, bao gồm các trường sau:
-- **Thông Tin Đơn Hàng**: Order ID, Order Date, Ship Date, Customer ID, Product ID.
-- **Chỉ Số Bán Hàng**: Sales, Profit, Discount, Quantity.
-- **Dữ Liệu Khách Hàng & Khu Vực**: Customer Name, Segment, City, State, Region.
-- **Thông Tin Sản Phẩm**: Category, Sub-Category, Product Name.
+Bộ dữ liệu được sử dụng trong dự án là **dữ liệu lịch sử giá cổ phiếu của VanEck Vectors Vietnam ETF (VNM ETF)** – một quỹ ETF đại diện cho hiệu suất thị trường chứng khoán Việt Nam.
+
+### 🧾 Các trường dữ liệu:
+
+| Trường dữ liệu | Mô tả |
+|----------------|-------|
+| `Date`         | Ngày giao dịch |
+| `Open`         | Giá mở cửa trong ngày |
+| `High`         | Giá cao nhất trong ngày |
+| `Low`          | Giá thấp nhất trong ngày |
+| `Close`        | Giá đóng cửa trong ngày |
+| `Adj Close`    | Giá đóng cửa đã điều chỉnh (đã tính cổ tức, chia tách...) |
+| `Volume`       | Khối lượng giao dịch trong ngày |
+
+### 📌 Ghi chú:
+
+- Dữ liệu phản ánh hiệu suất giao dịch cổ phiếu theo từng ngày.
+- Có thể dùng để tính toán các chỉ số phân tích kỹ thuật như **Moving Average (MA)**, **Relative Strength Index (RSI)**,...
+- Dữ liệu phù hợp để trực quan hóa xu hướng giá trong Power BI.
+
+> 📂 Nguồn dữ liệu: [Yahoo Finance](https://finance.yahoo.com/), [VanEck Vectors Vietnam ETF (VNM)](https://www.vaneck.com/us/en/investments/vnm/)
+
 
 ## Điểm Nổi Bật Của Dashboard
 - **Biến Động Giá Cổ Phiếu Theo Ngày (%)**: Hiển thị mức độ dao động thị trường.
